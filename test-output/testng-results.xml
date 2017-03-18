@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69965" started-at="2017-03-18T01:27:41Z" finished-at="2017-03-18T01:28:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69965" started-at="2017-03-18T01:27:41Z" finished-at="2017-03-18T01:28:51Z">
+      <class name="TestCases.MessagesTest">
+        <test-method status="PASS" signature="testComposeMessage(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testComposeMessage" duration-ms="18189" started-at="2017-03-17T20:27:41Z" data-provider="SSLoginDetails" finished-at="2017-03-17T20:27:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qatests+homework@sproutsocial.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[egQCorU7YuLE8guVsHnXMQJ+cTgt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComposeMessage -->
+        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="1256" started-at="2017-03-17T20:27:59Z" finished-at="2017-03-17T20:28:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ce1d6d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="testReplyMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testReplyMessages" duration-ms="18249" started-at="2017-03-17T20:28:00Z" data-provider="SSLoginDetails" finished-at="2017-03-17T20:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qatests+homework@sproutsocial.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[egQCorU7YuLE8guVsHnXMQJ+cTgt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReplyMessages -->
+        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="536" started-at="2017-03-17T20:28:19Z" finished-at="2017-03-17T20:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ce1d6d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="testScheduleMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testScheduleMessages" duration-ms="31218" started-at="2017-03-17T20:28:19Z" data-provider="SSLoginDetails" finished-at="2017-03-17T20:28:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qatests+homework@sproutsocial.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[egQCorU7YuLE8guVsHnXMQJ+cTgt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScheduleMessages -->
+        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="494" started-at="2017-03-17T20:28:50Z" finished-at="2017-03-17T20:28:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ce1d6d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- TestCases.MessagesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
