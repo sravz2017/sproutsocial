@@ -6,7 +6,7 @@
       <class name="TestCases.MessagesTest">
         <methods>
           <include name="after"/>
-          <include name="testComposeMessage" invocation-numbers="0"/>
+          <include name="testScheduleMessages" invocation-numbers="0"/>
         </methods>
       </class> <!-- TestCases.MessagesTest -->
     </classes>

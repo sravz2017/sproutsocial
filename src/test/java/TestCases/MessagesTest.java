@@ -42,6 +42,7 @@ public class MessagesTest extends BaseTest {
 		driver.get("https://app.sproutsocial.com/login");
 	    login.SSlogin(Username, Password);
 	    test.log(LogStatus.INFO, "Success login");
+	    Assert.assertTrue(message.clickMessageTab(), "Unable to click on message tab" );
 	    Assert.assertTrue(message.waitUntilComposeVisible(driver), "Unable to find compose");
 	    Assert.assertTrue(message.clickCompose(), "Unable to click on Compose");
 	    Assert.assertTrue(message.sendMessage(), "Unable to send text message");
@@ -74,7 +75,7 @@ public class MessagesTest extends BaseTest {
 	    Assert.assertTrue(message.sendReplyMessage(), "This is a reply text");
 	    Assert.assertTrue(message.clickSendReplyMessage(), "Unable to click on send button");
 	    test.log(LogStatus.PASS, "Test passed");
-	}
+	} 
 	
 	@Test(dataProvider="SSLoginDetails")
 	public void testScheduleMessages(String Username, String Password){
@@ -93,6 +94,7 @@ public class MessagesTest extends BaseTest {
 		driver.get("https://app.sproutsocial.com/login");
 	    login.SSlogin(Username, Password);
 	    test.log(LogStatus.INFO, "Success login");
+	    Assert.assertTrue(message.clickMessageTab(), "Unable to click Messages Tab");
 	    Assert.assertTrue(message.clickPublishingTab(), "Unable to click on Publishing tab");
 	    Assert.assertTrue(message.clickScheduleMessage(), "Unable to click on schedule message button");
 	    Assert.assertTrue(message.waitUntilScheduleViewVisible(driver), "Element is not visible");

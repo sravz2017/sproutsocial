@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69965" started-at="2017-03-18T01:27:41Z" finished-at="2017-03-18T01:28:51Z">
+  <suite name="Default suite" duration-ms="56259" started-at="2017-03-20T16:21:06Z" finished-at="2017-03-20T16:22:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69965" started-at="2017-03-18T01:27:41Z" finished-at="2017-03-18T01:28:51Z">
+    <test name="Default test" duration-ms="56259" started-at="2017-03-20T16:21:06Z" finished-at="2017-03-20T16:22:02Z">
       <class name="TestCases.MessagesTest">
-        <test-method status="PASS" signature="testComposeMessage(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testComposeMessage" duration-ms="18189" started-at="2017-03-17T20:27:41Z" data-provider="SSLoginDetails" finished-at="2017-03-17T20:27:59Z">
+        <test-method status="PASS" signature="testComposeMessage(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testComposeMessage" duration-ms="16484" started-at="2017-03-20T11:21:06Z" data-provider="SSLoginDetails" finished-at="2017-03-20T11:21:22Z">
           <params>
             <param index="0">
               <value>
@@ -23,18 +23,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testComposeMessage -->
-        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="1256" started-at="2017-03-17T20:27:59Z" finished-at="2017-03-17T20:28:00Z">
+        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="1034" started-at="2017-03-20T11:21:22Z" finished-at="2017-03-20T11:21:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4ce1d6d0]]>
+                <![CDATA[org.testng.TestRunner@1fde5d22]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="testReplyMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testReplyMessages" duration-ms="18249" started-at="2017-03-17T20:28:00Z" data-provider="SSLoginDetails" finished-at="2017-03-17T20:28:19Z">
+        <test-method status="PASS" signature="testReplyMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testReplyMessages" duration-ms="16542" started-at="2017-03-20T11:21:23Z" data-provider="SSLoginDetails" finished-at="2017-03-20T11:21:40Z">
           <params>
             <param index="0">
               <value>
@@ -50,18 +50,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testReplyMessages -->
-        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="536" started-at="2017-03-17T20:28:19Z" finished-at="2017-03-17T20:28:19Z">
+        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="523" started-at="2017-03-20T11:21:40Z" finished-at="2017-03-20T11:21:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4ce1d6d0]]>
+                <![CDATA[org.testng.TestRunner@1fde5d22]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method status="PASS" signature="testScheduleMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testScheduleMessages" duration-ms="31218" started-at="2017-03-17T20:28:19Z" data-provider="SSLoginDetails" finished-at="2017-03-17T20:28:50Z">
+        <test-method status="PASS" signature="testScheduleMessages(java.lang.String, java.lang.String)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="testScheduleMessages" duration-ms="21064" started-at="2017-03-20T11:21:40Z" data-provider="SSLoginDetails" finished-at="2017-03-20T11:22:01Z">
           <params>
             <param index="0">
               <value>
@@ -77,11 +77,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScheduleMessages -->
-        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="494" started-at="2017-03-17T20:28:50Z" finished-at="2017-03-17T20:28:51Z">
+        <test-method status="PASS" signature="after(org.testng.ITestContext)[pri:0, instance:TestCases.MessagesTest@480bdb19]" name="after" is-config="true" duration-ms="582" started-at="2017-03-20T11:22:01Z" finished-at="2017-03-20T11:22:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4ce1d6d0]]>
+                <![CDATA[org.testng.TestRunner@1fde5d22]]>
               </value>
             </param>
           </params>
